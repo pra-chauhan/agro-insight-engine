@@ -6,6 +6,7 @@
     "bradlc.vscode-tailwindcss",
     "Vue.vscode-typescript-vue-plugin",
     "dsznajder.es7-react-js-snippets",
-    "christian-kohler.path-intellisense"
+    "christian-kohler.path-intellisense",
+    "ms-vscode.powershell"  // Added PowerShell extension
   ]
 }
