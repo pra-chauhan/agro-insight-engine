@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { Leaf, Seedling, Info } from "lucide-react";
+import { Leaf, Sprout, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { RecommendationResult } from '@/services/recommendationService';
@@ -37,7 +37,7 @@ const CropRecommendationCard: React.FC<CropRecommendationCardProps> = ({ recomme
       <CardHeader className="pb-2">
         <div className="flex justify-between items-start">
           <CardTitle className="flex items-center gap-2">
-            <Seedling className="h-5 w-5 text-primary" />
+            <Sprout className="h-5 w-5 text-primary" />
             {cropName}
           </CardTitle>
           <Badge className={getBadgeColor(suitabilityScore)}>

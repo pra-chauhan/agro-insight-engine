@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
-import { TestTube, DropletHalf, Leaf } from "lucide-react";
+import { TestTube, Droplet, Leaf } from "lucide-react";
 import { SoilData } from '@/services/recommendationService';
 import { toast } from "sonner";
 
@@ -51,7 +51,7 @@ const SoilDataForm: React.FC<SoilDataFormProps> = ({ onSubmit }) => {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <Label htmlFor="soil-ph" className="flex items-center gap-2">
-                  <DropletHalf className="h-4 w-4" />
+                  <Droplet className="h-4 w-4" />
                   Soil pH
                 </Label>
                 <span className="text-sm font-medium">{soilData.ph}</span>

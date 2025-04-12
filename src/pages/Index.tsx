@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import SoilDataForm from '@/components/SoilDataForm';
 import WeatherWidget from '@/components/WeatherWidget';
