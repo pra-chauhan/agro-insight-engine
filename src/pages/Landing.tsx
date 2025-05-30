@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Leaf, Plant, BarChart3, CloudSun, Award, ArrowRight } from "lucide-react";
+import { Leaf, Sprout, BarChart3, CloudSun, Award, ArrowRight } from "lucide-react";
 
 const Landing = () => {
   return (
@@ -47,7 +46,7 @@ const Landing = () => {
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
                   <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <Plant className="h-6 w-6 text-primary" />
+                    <Sprout className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Crop Recommendations</h3>
                   <p className="text-muted-foreground">
